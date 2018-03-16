@@ -1,82 +1,105 @@
-<!DOCTYPE html> 
-<html lang="en-us">
-<head>
-  <meta charset=”utf-8”>
-  <title>bootstrap HW</title>
-  <link rel="stylesheet" type="text/css" href="assetsfolder/css1/style1.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="assetsfolder/css1/style1.css">
-
-<div class="container">
-
-</div>
-
+<!DOCTYPE html>
+<html>
+ <title>Bootstrap Portfolio</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+</style>
 </head>
-<body>
-
-    <header>
-      <nav class="navbar">
-    <div class="container-fluid">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span> 
-              </button>
-              <a class="navbar-brand" href="index.html"><h5>Nahum Sonck<h5></a>
-              </div>
-              <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav navbar-right">
-                  <li><a href="index.html"><h5>About</h5></a></li> 
-                  <li><a href="portfolio.html"><h5>Portfolio</h5></a></li>
-                  <li><a href="contact.html"><h5>Contact</h5></a></li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-        </header>
-    
-        <div class="container" id="box">
-         
-          <div class="row">
-    
-            <div class="col-lg-6">
-              <img src="assetsfolder/imgfolder/aboutMeBitmoji.PNG" class="auth-image" alt="nahum sonck">
-            </div>
-    
-            <div class="col-lg-6" id="aboutme">
-              <h2>About Me</h2>
-              <p>Hi, im currently in coding bootcamp, <b>learning amazing new ways to code</b>. Im in bootcampe to get more knowledge
-                to coding. Since Bootcamp my skills in html and css have expanded.</p>
-              <p>Since Bootcamp my passion for coding have grown. I planning on learning more and have fun with it.</b></p>
-               <br>
-               <br>
-              <h3>Connect With Me</h3>
-              <a href="https://github.com" target="_blank"><img src="assetsfolder/imgfolder/github-128.png" class="social" alt="GitHub" /></a>
-              <a href="https://www.linkedin.com" target="_blank"><img src="assetsfolder/imgfolder/linkedin-128.png" class="social" alt="LinkedIn" /></a>
-              <a href="https://stackoverflow.com" target="_blank"><img src="assetsfolder/imgfolder/stackoverflow-128.png" class="social" alt="Stack Overflow" /></a>
-            </div>
-            </div>
-          </div>
-    
-    
-    
-        <div class="container">
-          <div class="row">
-            <div class="span12">
-              <div id="footer">
-                <ul class="footer">
-                  <li>&copy; 2018 Coding, Inc.</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-    
+<body style="background: lightgray;">
+	<div class="container-fluid">
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#MyNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<div class="navar-brand" href="#">
+							<h1>Nahum Sonck</h1>
+					</div>
+				</div>
+				<div class="collapse navbar-collapse" id="MyNavbar">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="active"><a href="index.html">About</a></li>
+						<li><a href="portfolio.html">Portfolio</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
 
 
 
+	<div class="contaner">
+		<div class="container">
+			<div class="row">
 
+				<div class="col-md-7 jumbotron">
+					<div class="container">
+						<div class="row" style="margin-bottom: 10px">
+
+							<div class="col-md-12" style="border-bottom: solid 2px gray;">
+								<h1>About Me</h1>
+							</div>
+						</div>
+
+						<div class="row">
+
+							<div class="col-xs-12">
+								<img src="assets/images/myself.jpg" alt="nahum" style="width: 200px; height: auto; float: left; margin-right: 30px;">
+
+								<p>Hi! My name is Nahum and I recently started school at the University of Miami Coding Bootcamp! I've just recently gotten into coding and have created what you see thus far on this page. I started my coding journey on my own, working with youtube and ecoding from free online resources, but have since expanded my knowledge to include html and css.</p>
+							</div>							
+
+						</div>
+					</div>					
+				</div>
+
+				<div class="container col-md-1">
+				</div>
+
+				<div class="jumbotron col-md-4 offset-2 text-center" style="margin: 0 auto; height: 50%;">
+					<div class="container">
+
+							<div class="row">
+								<div class="col-md-12" style="border-bottom: solid 2px gray; margin-bottom: 10px;">
+									<h3>Connect With Me</h3>
+								</div>
+							</div>
+
+							<div class="row">
+
+								<div class="col-4 col-xs-4">
+									<a href="https://github.com/nahumcoding" target="_blank"><img src="https://cdn0.iconfinder.com/data/icons/octicons/1024/mark-github-128.png" style="width: 60px; height: auto;" alt="github"></a>
+								</div>
+
+								<div class="col-4 col-xs-4">
+									<a href="https://www.linkedin.com/in/nahum-sonck-819053157/" target="_blank"><img src="https://cdn2.iconfinder.com/data/icons/micon-social-pack/512/linkedin-128.png" style="width: 60px; height: auto;"" alt="linkedin"></a>
+								</div>
+								<div class="col-4 col-xs-4">
+									<a href="https://stackoverflow.com/" target="_blank"><img src="https://cdn2.iconfinder.com/data/icons/social-icons-33/128/Stack_Overflow-128.png" style="width: 60px; height: auto;"" alt="stackoverflow"></a>
+								</div>
+							</div>
+						</div>
+
+				</div>
+
+
+				
+			</div>
+
+			
+			</div>	
+		</div>
+
+	</div>
 
 </body>
+
 </html>
