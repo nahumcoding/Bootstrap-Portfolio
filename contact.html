@@ -1,83 +1,97 @@
-<!doctype html>
-<html lang="en-us">
-<head>
-  <meta charset="UTF-8">
-  <title>Contact | Nahum Sonck</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
-
-
+<!DOCTYPE html>
+<html>
+ <title>Bootstrap Portfolio</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+</style>
 </head>
+<body style="background: lightgray;">
 
-<body>
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#MyNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<div class="navar-brand" href="#">
+						<h1>NAHUM SONCK</h1>
+				</div>
+			</div>
+			<div class="collapse navbar-collapse" id="MyNavbar">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="index.html">About</a></li>
+					<li><a href="portfolio.html">Portfolio</a></li>
+					<li class="active"><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>	
 
-  <header>
-    <nav class="navbar">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span> 
-          </button>
-          <a class="navbar-brand" href="index.html"><h5>Nahum Sonck<h5></a>
-          </div>
-          <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="index.html"><h5>About</h5></a></li> 
-              <li><a href="portfolio.html"><h5>Portfolio</h5></a></li>
-              <li><a href="contact.html"><h5>Contact</h5></a></li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
+	<div class="contaner">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-7 jumbotron">
+					<div class="container">
+						<div class="row" style="margin-bottom: 10px">
 
-    <div id="container" id="box">
-      <div class="row">
-        <div class="col-lg-2"></div>
-        <div class="col-lg-4">
-          <h1>Contact</h1>
-          <form id="contact-form">
-            <ul>
-              <li>
-                <label for="name">Name</label>
-                <input type="text" id="name" name="name" placeholder="Full Name" required="required">
-              </li>
-              <li>
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" placeholder="Enter Email" required="required">
-              </li>
-              <li>
-                <label for="message">Message</label>
-                <textarea id="message" name="message" placeholder="...type message"  required="required"></textarea>
-              </li>
-            </ul>
-            <input type="submit">
-          </form>
-        </div>
+							<div class="col-md-12" style="border-bottom: solid 2px gray;">
+								<h2>Contact</h2>
+							</div>
+						</div>
 
-      <div class="col-lg-5">
-          <h2>Connect with Me</h2>
-          <a href="https://github.com" target="_blank"><img src="assets//github-128.png" class="social" alt="GitHub" /></a>
-          <a href="https://www.linkedin.com" target="_blank"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" /></a>
-          <a href="https://stackoverflow.com" target="_blank"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" /></a>
-        </div>
-    </div>
+						<form class="form-horizontal">
+							<div class="form-group">
+								<label for="usr">Name:</label>
+  								<input type="text" class="form-control" placeholder="Your Name Goes Here...">
+							</div>
+							<div class="form-group">
+  								<label for="email">Email:</label>
+  								<input type="text" class="form-control" placeholder="example@gmail.com" ">
+							</div>
+								<div class="form-group">
+  								<label for="message" >Message:</label>
+  									<textarea class="form-control" row="10"></textarea>
+  								<button class="btn" style="background: lightblue; margin-top: 10px;"">Submit</button>
+							</div>
+						</form>					
+					</div>					
+				</div>
 
-    <div class="container">
-      <div class="row">
-        <div class="span12">
-          <div id="footer">
-            <ul class="footer">
-              <li>&copy; 2018 Coding, Inc.</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>
+				<div class="container col-md-1">
+				</div>
 
-  </html>
+				<div class="jumbotron col-md-4 offset-2 text-center" style="margin: 0 auto; height: 50%;">
+					<div class="container">
+
+							<div class="row">
+								<div class="col-md-12" style="border-bottom: solid 2px gray; margin-bottom: 10px;">
+									<h3>Connect With Me</h3>
+								</div>
+							</div>
+
+							<div class="row">
+
+								<div class="col-4 col-xs-4">
+									<a href="https://github.com/JoshTRN" target="_blank"><img src="https://cdn0.iconfinder.com/data/icons/octicons/1024/mark-github-128.png" style="width: 60px; height: auto;" alt="github"></a>
+								</div>
+
+								<div class="col-4 col-xs-4">
+									<a href="https://www.linkedin.com/in/joshua-wood-72bb6bb1" target="_blank"><img src="https://cdn2.iconfinder.com/data/icons/micon-social-pack/512/linkedin-128.png" style="width: 60px; height: auto;"" alt="linkedin"></a>
+								</div>
+								<div class="col-4 col-xs-4">
+									<a href="https://stackoverflow.com/users/9070477/josh-wood?tab=profile" target="_blank"><img src="https://cdn2.iconfinder.com/data/icons/social-icons-33/128/Stack_Overflow-128.png" style="width: 60px; height: auto;" alt="stackoverflow"></a>
+								</div>
+							</div>
+						</div>
+				</div>				
+			</div>	
+		</div>
+</body>
+</html>
